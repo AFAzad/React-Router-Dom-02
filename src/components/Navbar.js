@@ -19,6 +19,9 @@ function Navbar(){
                 <li> <NavLink to='Contact'className="navbar-link"
                 style={({isActive})=>{return{color: isActive?'lightgreen':''}}}
                 >Contact</NavLink> </li>
+                <li><NavLink to='filter' className='navbar-link'
+                style={({isActive})=>{return{color:isActive?'lightgreen':''}}}
+                >Filter</NavLink></li>
                 
                 
             </ul>

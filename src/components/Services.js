@@ -9,8 +9,8 @@ function Services(){
         </div>
         <div>
             <ul>
-                <li><Link to='user/Raaz'>Raaz</Link></li>
-                <li><Link to='user/Rahul'>Rahul</Link></li>
+                <li><Link to='/user/Raaz'>Raaz</Link></li>
+                <li><Link to='/user/Rahul'>Rahul</Link></li>
             </ul>
             <ul>
                 <li><Link to='/'>Go to home pages</Link></li>
